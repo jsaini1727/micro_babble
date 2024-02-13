@@ -4,9 +4,9 @@
 const express = require('express');
 const path = require('path');
 // Connect our process.env to the .env file
-// require('dotenv').config({
+require('dotenv').config();
 //     path: path.join(__dirname,)
-// });
+
 
 
 // Import your mongoose connection
